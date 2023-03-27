@@ -111,18 +111,12 @@ h1 {
   }
 
   .enter-register {
-    height: 31px;
-    width: 100px;
     border-radius: 5px;
     border: 2px solid #000;
     cursor: pointer;
     background-color: transparent;
     transition: 0.5s;
-    text-transform: uppercase;
-    font-size: 10px;
-    letter-spacing: 2px;
-    margin-left: 1em;
-    margin-bottom: 2em;
+    margin-left: 2;
   }
   
   .enter-register:hover {

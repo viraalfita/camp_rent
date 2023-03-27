@@ -31,8 +31,8 @@
                     <thead>
                         <tr>
                             <th class="col-md-1 text-center">No</th>
-                            <th class="col-md-2 text-center">Barang</th>
-                            <th class="col-md-2 text-center">Harga</th>
+                            <th class="col-md-2 text-center">Nama</th>
+                            <th class="col-md-2 text-center">Level</th>
                             <th class="col-md-1 text-center">Stok</th>
                             <th class="col-md-4 text-center">Deskripsi</th>
                             <th class="col-md-4 text-center">Aksi</th>

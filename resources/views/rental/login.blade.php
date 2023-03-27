@@ -18,20 +18,20 @@
             <a class="login">Log in</a>
             @csrf
             <div class="inputBox">
-                <input type="text" name="email" id="email" value="{{Session::get('email')}}">
+                <input type="text" name="email" id="email" required>
                 <span class="user">E-mail</span>
             </div>
 
             <div class="inputBox">
-                <input type="password" name="password" id="password">
+                <input type="password" name="password" id="password" required>
                 <span>Password</span>
             </div>
 
             <button class="enter" name="submit" type="submit">LOGIN</button>
             <div class="d-flex">
-              <span class="mx-auto">Belum punya akun?</span>
+              <span class="">Belum punya akun?</span>
               <a href="{{url('/register')}}" name="submit" type="submit" class="enter-register">
-                <span class="px-3 py-2">Register</span>
+                <span class="p-2 m-2">Register</span>
               </a>
             </div>
           </div>
