@@ -7,7 +7,6 @@ use App\Http\Controllers\c_list_harga;
 use App\Http\Controllers\c_login;
 use App\Http\Controllers\c_penyewa;
 use App\Http\Controllers\c_persyaratan;
-use App\Http\Controllers\c_rental;
 use Illuminate\Support\Facades\Route;
 
 /*

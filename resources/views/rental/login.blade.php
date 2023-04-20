@@ -14,7 +14,7 @@
       @include('component/message')
       <form action="/login" method="POST">
         <div class="d-flex" style="height: 100vh">
-          <div class="card-login m-auto">
+          <div class="card-login m-auto py-3">
             <a class="login">Log in</a>
             @csrf
             <div class="inputBox">
@@ -28,10 +28,10 @@
             </div>
 
             <button class="enter" name="submit" type="submit">LOGIN</button>
-            <div class="d-flex">
-              <span class="">Belum punya akun?</span>
-              <a href="{{url('/register')}}" name="submit" type="submit" class="enter-register">
-                <span class="p-2 m-2">Register</span>
+            <div class="row ms-2 me-3">
+              <span class="col-5 my-auto inputBox fw-bold" style="font-size: 17px;">BELUM PUNYA AKUN?</span><br>
+              <a href="{{url('/register')}}" class="col text-center p-2 my-auto enter">
+                <span class="text-center">DAFTAR</span>
               </a>
             </div>
           </div>
